@@ -20,10 +20,10 @@ app.post('/usuarios', async (req, res) => {
     data: {
       name: req.body.name,
       age: req.body.age,
-      email: req.body.email
+      email: req.body.email,
     }
   })
-  res.status(201).json(user)
+  
 })
 
 
